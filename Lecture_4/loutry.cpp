@@ -18,7 +18,7 @@ int main() {
         cout << "Bike";
     }
     else {
-        cout << "Better luck next time";
+        cout << "Better Luck Next Time";
     }
 
     return 0;
