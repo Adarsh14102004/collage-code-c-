@@ -10,7 +10,7 @@ int fibbo(int n) {
     int n;
     cin >> n;
     int g = 0;
-    for (int i = 0; i < n-1; i++) {
+    for (int i = 0; i <=n; i++) {
         for (int j = 1; j <= i; j++)
         {
             cout<<fibbo(g)<<" ";
