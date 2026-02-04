@@ -8,8 +8,8 @@ int main() {
     int sum=0;
     while (n>0)
     {
-        int k=n%10;
-        sum+=k*pow(2,g);
+        int kit=n%10;
+        sum+=kit*pow(2,g);
         g++;
         n=n/10;
     }
