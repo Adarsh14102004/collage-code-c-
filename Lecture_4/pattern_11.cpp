@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 int main () {
-    int n;
-    cin>>n;
+    int N;
+    cin>>N;
 
-    for(int i = 1; i <= n; i++) {
+    for(int i = 1; i <= N; i++) {
 
-        for(int j = 1; j <= n-i; j++) {
+        for(int j = 1; j <= N  -i; j++) {
             cout << "  " ;
         }
 
