@@ -1,18 +1,29 @@
-#include<iostream>
+ // print  position 
+ 
+ #include<iostream>
 #include<climits>
 using namespace std;
 int main () {
    int n;
    cin>>n;
    int arr[n];
-   int key;
+   
    for (int i = 0; i < n; i++)
    {
     cin>>arr[i];
     
    }
-    cin>>key;
+   int value=10;
     
+    for (int i = 0; i <n ; i++)
+    {
+      if(arr[i]==value){
+            cout<<i+1<<endl;
+        }
+      
+    }
+    
+
    
    return 0;
 }
