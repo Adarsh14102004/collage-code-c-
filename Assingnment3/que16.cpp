@@ -8,7 +8,7 @@ int main() {
     while (T--) {
         int M, N;
         cin >> M >> N;
-        int a = 0, h = 0;
+        int a = 0, H = 0;
         int turn = 1;
         while (1) {
             if (turn % 2 == 1) {
@@ -18,8 +18,8 @@ int main() {
                     break;
                 }
             } else {
-                h += turn;
-                if (h > N) {
+                H += turn;
+                if (H > N) {
                     cout << "Aayush\n";
                     break;
                 }
