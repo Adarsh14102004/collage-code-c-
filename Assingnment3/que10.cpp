@@ -1,3 +1,4 @@
+// is Armstrong
 #include <iostream>
 using namespace std;
 
