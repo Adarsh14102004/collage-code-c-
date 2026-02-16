@@ -1,25 +1,33 @@
-// chewbacca an integer number
 #include<iostream>
 using namespace std;
+
 int main()
 {
-    long long n;
-    cin>>n;
-    string s=to_string(n);
-    for (int i = 0; i < s.length(); i++)
+    int n;
+    cin >> n;
+
+    int ans = 0;
+    int p = 1;
+
+    while(n)
     {
-        if (s[i]>='5')
-        {
-            s[i]='9'-s[i]+'0';
-        }
-        
+        int d = n % 10;
+
+        if(d >= 5)
+            d = 9 - d;
+
+        ans += d * p;
+        p *= 10;
+        n /= 10;
     }
-    if (s[0]=='0')
-    {
-        s[0]='9';
-    }
+
     
-    cout<<s;
-    
-    return 0;
+    int t = ans;
+    while(t >= 10)
+        t /= 10;
+
+    if(t == 0)
+        ans += 9 * p / 10;
+
+    cout << ans;
 }
