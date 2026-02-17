@@ -15,7 +15,7 @@ int main() {
         for (int i = 1; i < d; i++)
             place = place * 10;
 
-        inv = inv + pos * place;
+        inv = inv + (pos * place);
 
         pos = pos + 1;
         n = n / 10;
