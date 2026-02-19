@@ -1,3 +1,5 @@
+// 27. Remove Element
+//26. Remove Duplicates from Sorted Array
 #include <vector>
 using namespace std;
 
