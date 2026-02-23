@@ -23,12 +23,16 @@ vector<int> productExceptSelf(vector<int>& nums) {
 
 int main() {
     vector<int> nums = {-1,1,0,-3,3};
+    vector<int> nums2 = {1,2,3,4};
 
-    vector<int> result = productExceptSelf(nums);
+    vector<int> result1 = productExceptSelf(nums);
+    vector<int> result2 = productExceptSelf(nums2);
 
-    for (int x : result) {
-        cout << x << " ";
-    }
+    cout << "Result 1: ";
+    for (int x : result1) cout << x << " ";
+
+    cout << "\nResult 2: ";
+    for (int x : result2) cout << x << " ";
 
     return 0;
 }
