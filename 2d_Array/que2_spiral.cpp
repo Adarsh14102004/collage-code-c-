@@ -34,7 +34,7 @@ int main() {
         if(left<=right){
             //bottom  ka top bana diya hai
             for(int i=bottom; i>=top; i--){
-                cout << arr[i][left] << " ";
+                cout << arr[i][left] << "  ";
             }
             left++;
         }
