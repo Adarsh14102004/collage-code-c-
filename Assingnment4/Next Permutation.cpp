@@ -2,7 +2,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+// main function
 int main() {
     int n;
     cin >> n;
