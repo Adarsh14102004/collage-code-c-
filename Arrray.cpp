@@ -3,10 +3,10 @@
 using namespace std;
 int main()
 {
-    int N;
+    int n;
     cout << "Enter the number of rows: ";
-    cin >> N;
-    for (int i = 0; i < N; i++)
+    cin >>n;
+    for (int i = 0; i < n; i++)
     {
         cout<<" ";
         for (int j = 0; j <= i; j++)
