@@ -2,19 +2,19 @@
 using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
+    int N;
+    cin >> N;
 
-    if (n >= 300 && n <= 460) {
+    if (N >= 300 && N <= 460) {
         cout << "Macbook";
     }
-    else if (n >= 200 && n <= 280) {
+    else if (N >= 200 && N <= 280) {
         cout << "Kurkura";
     }
-    else if (n >= 1100 && n <= 1500) {
+    else if (N >= 1100 && N <= 1500) {
         cout << "Cycle";
     }
-    else if (n >= 50 && n <= 80) {
+    else if (N >= 50 && N <= 80) {
         cout << "Bike";
     }
     else {
