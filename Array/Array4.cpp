@@ -15,7 +15,7 @@ int main () {
    }
    int value=10;
     
-    for (int i = 0; i <n ; i++)
+    for (int i = 0; i <=n ; i++)
     {
       if(arr[i]==value){
             cout<<i+1<<endl;
